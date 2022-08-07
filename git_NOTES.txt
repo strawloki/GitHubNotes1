@@ -1,0 +1,27 @@
+----GIT COMMANDS----
+
+git init - initializes a repository(folder) with git. (creates a .git file which stores updates and commits etc)
+
+git add <filename>- adds <filename> to the repository created earlier
+
+git add . - adds all files in current repository/folder
+
+git commit -m "Comment" - saves a snapshot with a hash code in the git folder with the comment
+
+git log - displays all the commits made on the repository with comments and authors
+
+git checkout <commit-hash> - goes back to a previous state of the repository specified in the <commit-hash>. Use git log to view the hashes.
+
+git checkout master - switches to the main branch, the default branch, latest branch. other parameters will switch to different branches (think of them as subfolders)
+
+git branch <branch-name> - creates a new branch with the specified name. Use 'git checkout <branch-name>' to switch between different branches. 
+
+git checkout -b <new-branch-name> - create a new branch AND switch to it with one line.
+
+git merge <branch-name> - used to merge branches together. Used in situations where you want to implement new code into a master branch.
+
+git branch -d <branch-name> - deletes a branch
+
+
+
+
